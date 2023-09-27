@@ -165,7 +165,8 @@ main {
     border-radius: 4px 4px 0 0;
 }
 
-.project-details button {
+.project-details a {
+    text-decoration: none;
     margin: 5px 0px;
     padding: 8px;
     font-size: 16px;
@@ -176,10 +177,12 @@ main {
     color: #219ebc;
     display: flex;
     align-items: center;
+    justify-content: center;
     cursor: pointer;
+    width: 100%;
 }
 
-.project-details button:hover {
+.project-details a:hover{
     background: #219ebc;
     color: #fff;
     transform: scale(0.97);
