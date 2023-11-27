@@ -87,7 +87,27 @@ nav a {
 strong {
     color: #219ebc;
 }
+/*|| data container*/
+.data-skills-list{
+    width: 700px;
+    padding: 20px 0;
 
+}
+
+.data-skills-list ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  
+}
+
+.data-skills-list ul li{
+    margin: 2px 0;
+    margin-left: 10px;
+    list-style-type: circle;
+}
 /*|| head icon */
 .icons-container {
     padding: 30px 0;
@@ -297,6 +317,12 @@ main {
 .social-contact i {
     padding: 8px 0;
     margin: 5px;
+    font-size: 25px;
+
+}
+.social-contact a{
+    text-decoration: none;
+    color: #ffff;
 }
 
 /*|| footer*/
@@ -352,6 +378,9 @@ footer strong {
     .form-contact {
         width: 930px;
     }
+    .data-skills-list{
+        width: 930px;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -386,6 +415,9 @@ footer strong {
     }
 
     .title-contact {
+        width: 500px;
+    }
+    .data-skills-list{
         width: 500px;
     }
 }
@@ -428,6 +460,9 @@ footer strong {
     .form-contact {
         width: 450px;
     }
+    .data-skills-list{
+        width: 450px;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -466,6 +501,9 @@ footer strong {
     }
 
     .form-contact {
+        width: 350px;
+    }
+    .data-skills-list{
         width: 350px;
     }
 }
@@ -529,5 +567,8 @@ footer strong {
 
     footer{
         font-size: 14px;
+    }
+    .data-skills-list{
+        width: 300px;
     }
 }
